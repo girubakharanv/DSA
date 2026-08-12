@@ -4,8 +4,8 @@
 ->You are given an integer array heights representing the current order that the students are standing in. Each heights[i] is the height of the ith student in line (0-indexed).
 ->Return the number of indices where heights[i] != expected[i].
 */
-
-class Solution {
+import java.util.Arrays;
+class heightchecker {
    static public int heightChecker(int[] heights) {
         int[] expected=Arrays.copyOf(heights,heights.length);
         int count=0;
